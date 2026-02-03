@@ -16,3 +16,18 @@ Department like engineering were limited to 500MB of soft limit and 600MB of har
 3. repquota
 4. quotaon
 
+## Clean up & Archiving script
+
+1. Finds files older than 30 days
+2. Moves them into /company/archive
+3. Logs clean up automatically
+
+## Access Control Lists (ACLs)
+
+ACLs were implemented to allow special cross-department access without modifying primary group permissions
+
+example 
+
+setfacl -m u:justinrwx /company/engineering
+getfacl /company/engineering
+

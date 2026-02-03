@@ -31,3 +31,19 @@ example
 setfacl -m u:justinrwx /company/engineering
 getfacl /company/engineering
 
+## Real-world Revelance
+
+This project reflects how linux servers are managed in an enterprise environments where multiple teams share resources securely while maintaining strict access control and storage limits. 
+
+## Skills demonstrated 
+
+1. Linux System administration
+2. User and group management
+3. File permissions and ownership
+4. Access Control Lists(ACLs)
+5. Bash scripting automation
+6. Cron Job handling
+7. Filesystem quota management
+8. Server storage governance
+   
+
